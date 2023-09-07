@@ -17,5 +17,5 @@ CREATE TABLE phone(
     countrycode VARCHAR(2) NOT NULL,
     USER_ID UUID NOT NULL,
     PRIMARY KEY (id),
-    FOREIGN KEY (USER_ID) REFERENCES user(id)
+    FOREIGN KEY (USER_ID) REFERENCES users(id)
 );
