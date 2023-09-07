@@ -1,0 +1,88 @@
+{
+  "info": {
+    "_postman_id": "ee6ee815-5f1f-4480-a48b-852c8e0fbf61",
+    "name": "Nisum",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "9506347"
+  },
+  "item": [
+    {
+      "name": "get-users",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/nisum/api/users",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "users"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "create-user",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Camilo Arevalo\",\r\n    \"email\": \"camilo@gmail.cl\",\r\n    \"password\": \"123Acb144*\",\r\n    \"phones\": [\r\n        {\r\n            \"number\": \"3223605348\",\r\n            \"citycode\": \"57\",\r\n            \"countrycode\": \"5\"\r\n        },\r\n        {\r\n            \"number\": \"3104829784\",\r\n            \"citycode\": \"57\",\r\n            \"countrycode\": \"7\"\r\n        }\r\n    ]\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/nisum/api/users",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "users"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "update-user",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Cristian Arevalo Gutierrez\",\r\n    \"email\": \"camilo@gmail.cl\",\r\n    \"password\": \"123Acb144*\",\r\n    \"phones\": [\r\n        {\r\n            \"number\": \"3223605348\",\r\n            \"citycode\": \"57\",\r\n            \"countrycode\": \"7\"\r\n        },\r\n        {\r\n            \"number\": \"3114571720\",\r\n            \"citycode\": \"57\",\r\n            \"countrycode\": \"7\"\r\n        }\r\n    ]\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/nisum/api/users",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "users"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
