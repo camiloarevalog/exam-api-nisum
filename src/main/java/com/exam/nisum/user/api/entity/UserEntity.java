@@ -13,8 +13,6 @@ import java.util.List;
 /**
  * Clase que representa la entidad User en la base de datos.
  */
-
-
 @Getter
 @Setter
 @AllArgsConstructor

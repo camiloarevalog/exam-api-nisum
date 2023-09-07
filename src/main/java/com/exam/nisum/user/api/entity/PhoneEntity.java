@@ -10,8 +10,6 @@ import javax.persistence.*;
 /**
  * Clase que representa la entidad phone en la base de datos.
  */
-
-
 @Getter
 @Setter
 @AllArgsConstructor

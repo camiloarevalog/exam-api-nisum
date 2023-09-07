@@ -11,7 +11,6 @@ import java.util.stream.Collectors;
 /**
  * Clase usada para mapear modelos a entidades y viciversa de user y phone.
  */
-
 @Component
 public class UserMapper {
 
