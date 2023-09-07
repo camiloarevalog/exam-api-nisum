@@ -170,5 +170,7 @@ Crea un nuevo usuario y devuelve el estado `HTTP 201`, los datos del usuario rec
 ## Diagrama de la solución
 
 En el siguiente diagrama se muestra la estructura del proyecto y la arquitectura de la API:
-<a href='https://postimg.cc/k2WctgfG' target='_blank'><img src='https://i.postimg.cc/k2WctgfG/diagrama-Solucion.png' border='0' alt='diagrama-Solucion'/></a>
+
+![diagramaSolucion](https://github.com/camiloarevalog/exam-api-nisum/assets/29645816/fd146c12-5605-4a2d-9b2d-d1f286d46299)
+![Aquitectura](https://github.com/camiloarevalog/exam-api-nisum/assets/29645816/1763a488-edcf-441c-8a3e-5b3696fa39b1)
 
