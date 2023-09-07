@@ -170,5 +170,5 @@ Crea un nuevo usuario y devuelve el estado `HTTP 201`, los datos del usuario rec
 ## Diagrama de la solución
 
 En el siguiente diagrama se muestra la estructura del proyecto y la arquitectura de la API:
-
+<a href='https://postimg.cc/k2WctgfG' target='_blank'><img src='https://i.postimg.cc/k2WctgfG/diagrama-Solucion.png' border='0' alt='diagrama-Solucion'/></a>
 
